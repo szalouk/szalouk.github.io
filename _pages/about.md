@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Contact: <p>szalouk@stanford.edu</p>
+subtitle: <p>szalouk@stanford.edu</p>
 
 profile:
   align: right
