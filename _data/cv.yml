@@ -17,7 +17,7 @@
       institution: University of Toronto, Canada
       year: 2015 - 2020
       description:
-        - Ranked 1^{st} out of over 100 students in department (2015, 2020)
+        - Ranked 1<sup>st</sup> out of over 100 students in department (2015, 2020)
 
 - title: Academic Experience
   type: time_table
@@ -86,20 +86,25 @@
   type: time_table
   contents:
     - year: 2023
-      items: 
-        - Best Project Award, Stanford CS 224R (Deep Reinforcement Learning)
+      title: Best Project Award
+      institution: Stanford University
+      description:
+        - CS 224R (Deep Reinforcement Learning)
     - year: 2015 - 2020
-      items:
       title: Outstanding Student Award
       institution: University of Toronto
       description:
         - Awarded to the top 3 students in Electrical Engineering
     - year: 2020
-      items: 
-        - W.S. Wilson Medal, University of Toronto (Awarded to student with highest academic standing in the graduating year)
+      title: W.S. Wilson Medal
+      institution: University of Toronto
+      descriptions:
+        - Awarded to student with highest academic standing in the graduating year
     - year: 2016
-      items:
-        - Baptie Scholarship, University of Toronto (Awarded to students with high academic standing - top 1%)
+      title: Baptie Scholarship
+      institution: University of Toronto
+      descriptions:
+        - Awarded to students with high academic standing (top 1%)
 
 - title: Academic Interests
   type: nested_list
