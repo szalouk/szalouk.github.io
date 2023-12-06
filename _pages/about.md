@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Contact: <p>szalouk@stanford.edu</p>
 
 profile:
   align: right
@@ -15,8 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm an master's student in Computer Science at Stanford University, with a concentration on artifical intelligence. I am advised by Prof. [Stefano Ermon][https://cs.stanford.edu/~ermon/], and have worked closely with Prof. [Andrew Ng][https://www.andrewng.org/]. I completed my B.A.Sc. in Elecrical Engineering with highest distinction at the University of Toronto, where I worked with Prof. [Andreas Moshovos][https://www.eecg.utoronto.ca/~moshovos/000/doku.php].
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am interested in working on topics such as uncertainty quantification, generative modeling, and computational fairness. These areas, I believe, are key to ensuring that machine learning technologies are employed responsibly, particularly in sectors where they may have a profound impact on human life and wellbeing. Please feel free to reach out if you’re interested in collobrating in any of these areas!
