@@ -72,14 +72,11 @@
       year: Spring 2023
       description:
         - Awarded “Best Project” in Stanford’s CS 224R for identifying and mitigating bias in LLMs due to RLHF
-        - Conducted comprehensive analysis to assess language polarity, stereotype bias, and pronoun-based bias
-        - Identified and mitigated increased bias in larger models using a post-hoc self-debiasing method
+        - Identified and mitigated increased bias in LLMs using a post-hoc self-debiasing method
     - title: <a href="https://github.com/GANtastic3/MaskCycleGAN-VC">Data Augmentation for Speech Recognition</a>
       year: Winter 2021
       description:
-        - Implemented MaskCycleGAN-VC, the state-of-the-art method for many-to-many voice conversion
-        - Established the project as the leading implementation of MaskCycleGAN-VC on GitHub, evidenced by being the **most starred repository in its category**
-        - Developed data augmentation pipeline for Automated Speech Recognition
+        - Established the project as the leading implementation of MaskCycleGAN-VC on GitHub, evidenced by being the <strong>most starred repository in its category</strong>
         - Generated African American Vernacular English utterances from generic American English to address data scarcity
 
 - title: Honors and Awards
