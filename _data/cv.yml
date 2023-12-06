@@ -45,14 +45,14 @@
   type: time_table
   contents:
     - title: Software Engineer (Intern)
-      Intel
+      department: Intel
       year: 2018 - 2019
       description:
         - Worked on LLVM compiler to analyze and accelerate deep learning tasks on FPGAs
         - Improved Intel’s OpenCL memory management, reducing runtime and memory overhead by an order of complexity
   
     - title: ASIC Design Engineer (Intern)
-      NVIDIA
+      department: NVIDIA
       year: Summer 2018
       description:
         - Design and verification of processors for deep learning
