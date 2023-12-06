@@ -14,7 +14,7 @@
         - Advised by Stefano Ermon and Andrew Ng
         - Concentration - Artificial Intelligence
     - title: B.A.Sc. in Electrical Engineering
-      institution: University of Toronto, Canada
+      institution: University of Toronto
       year: 2015 - 2020
       description:
         - Ranked 1<sup>st</sup> out of over 100 students in department (2015, 2020)
@@ -36,7 +36,7 @@
         - Active learning and image segmentation with Andrew Ng and Ram Rajagopal
 
     - title: Undergraduate Researcher
-      institution: University of Toronto, Canada
+      institution: University of Toronto
       year: 2019 - 2020
       description:
         - Monocular depth estimation with Andreas Moshovos
@@ -105,20 +105,3 @@
       institution: University of Toronto
       description:
         - Awarded to students with high academic standing (top 1%)
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
