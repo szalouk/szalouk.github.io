@@ -98,12 +98,12 @@
     - year: 2020
       title: W.S. Wilson Medal
       institution: University of Toronto
-      descriptions:
+      description:
         - Awarded to student with highest academic standing in the graduating year
     - year: 2016
       title: Baptie Scholarship
       institution: University of Toronto
-      descriptions:
+      description:
         - Awarded to students with high academic standing (top 1%)
 
 - title: Academic Interests
