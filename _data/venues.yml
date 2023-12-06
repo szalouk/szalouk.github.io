@@ -4,3 +4,10 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"NeurIPS":
+  url: https://papers.nips.cc/
+  color: "#00369f"
+
+"IEEE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
