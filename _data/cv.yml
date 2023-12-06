@@ -2,82 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Sofian Zalouk
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MS in Computer Science
+      institution: Stanford University
+      year: 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advised by Stefano Ermon and Andrew Ng
+        - Concentration - Artificial Intelligence
+    - title: B.A.Sc. in Electrical Engineering
+      institution: University of Toronto, Canada
+      year: 2015 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Ranked 1^{st} out of over 100 students in department (2015, 2020)
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Stanford Artificial Intelligence Laboratory
+      year: Sep 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Uncertainty quantification and diffusion models with Stefano Ermon
+        - Machine Learning for healthcare with Andrew Ng and Sharon Zhou
+  
+    - title: Research Assistant
+      institution: Ford-Stanford University Collaboration
+      year: Summer 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Active learning and image segmentation with Andrew Ng and Ram Rajagopal
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Researcher
+      institution: University of Toronto, Canada
+      year: Sep 2019 - May 2020
       description:
+        - Monocular depth estimation with Andreas Moshovos
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Industry Experience
+  type: time_table
+  contents:
+    - title: Software Engineer (Intern)
+      institution: Intel
+      year: Sep 2018 - Sep 2019
+      description:
+        - Worked on LLVM compiler to analyze and accelerate deep learning tasks on FPGAs
+        - Improved Intel’s OpenCL memory management, reducing runtime and memory overhead by an order of complexity
+  
+    - title: ASIC Design Engineer (Intern)
+      institution: NVIDIA
+      year: Summer 2018
+      description:
+        - Design and verification of processors for deep learning
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Stanford CS 229 (Machine Learning) TA
+      year: Spring 2021
+    - title: Stanford CS 236G (Generative Adversarial Networks) TA
+      year: Winter 2021
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/szalouk/rlhf-bias">Measuring and Reducing Bias in LLMs introduced by RLHF</a>
+      year: Spring 2023
+      description:
+        - Awarded “Best Project” in Stanford’s CS 224R for identifying and mitigating bias in LLMs due to RLHF
+        - Conducted comprehensive analysis to assess language polarity, stereotype bias, and pronoun-based bias
+        - Identified and mitigated increased bias in larger models using a post-hoc self-debiasing method
+    - title: <a href="https://github.com/GANtastic3/MaskCycleGAN-VC">Data Augmentation for Speech Recognition</a>
+      year: Winter 2021
+      description:
+        - Implemented MaskCycleGAN-VC, the state-of-the-art method for many-to-many voice conversion
+        - Established the project as the leading implementation of MaskCycleGAN-VC on GitHub, evidenced by being the **most starred repository in its category**
+        - Developed data augmentation pipeline for Automated Speech Recognition
+        - Generated African American Vernacular English utterances from generic American English to address data scarcity
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Best Project Award, Stanford CS 224R (Deep Reinforcement Learning)
+    - year: 2015 - 2020
+      items:
+        - Outstanding Student Award, University of Toronto (Awarded to the top 3 students in Electrical Engineering)
+    - year: 2020
       items: 
-        - Max Planck Medal
+        - W.S. Wilson Medal, University of Toronto (Awarded to student with highest academic standing in the graduating year)
+    - year: 2016
+      items:
+        - Baptie Scholarship, University of Toronto (Awarded to students with high academic standing - top 1%)
 
 - title: Academic Interests
   type: nested_list
