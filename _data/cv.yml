@@ -68,7 +68,7 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: Measuring and Reducing Bias in LLMs introduced by RLHF (<a href="https://github.com/szalouk/rlhf-bias">Code</a> | <a href="/assets/pdf/CS_224R_Poster.pdf">Poster</a>)
+    - title: Measuring and Reducing Bias in LLMs introduced by RLHF (<a href="https://github.com/szalouk/rlhf-bias">Code</a> | <a href="/assets/pdf/RLHF_bias_poster.pdf">Poster</a> | <a href="/assets/pdf/RLHF_bias_paper.pdf">Paper</a>)
       year: Spring 2023
       description:
         - Awarded “Best Project” in Stanford’s CS 224R for identifying and mitigating bias in LLMs due to RLHF
