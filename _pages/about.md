@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 'Contact: szalouk [at] stanford [dot] edu'
+subtitle: 'Contact: szalouk [at] cs [dot] cornell [dot] edu'
 
 profile:
   align: right
