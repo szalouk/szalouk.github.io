@@ -7,15 +7,20 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Computer Science
+      institution: Cornell University
+      year: 2024 - Ongoing
+      description:
+        - Advised by Kilian Q. Weinberger and Chris De Sa
     - title: M.S. in Computer Science
       institution: Stanford University
-      year: 2020 -
+      year: 2024
       description:
         - Advised by Stefano Ermon and Andrew Ng
         - Concentration - Artificial Intelligence
     - title: B.A.Sc. in Electrical Engineering
       institution: University of Toronto
-      year: 2015 - 2020
+      year: 2020
       description:
         - Ranked 1<sup>st</sup> out of over 100 students in department (2015, 2020)
 
@@ -24,7 +29,7 @@
   contents:
     - title: Graduate Research Assistant
       institution: Stanford Artificial Intelligence Laboratory
-      year: 2020 -
+      year: 2021-2024
       description:
         - Uncertainty quantification and diffusion models with Stefano Ermon
         - Machine Learning for healthcare with Andrew Ng and Sharon Zhou
