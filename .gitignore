@@ -9,3 +9,5 @@ _site
 Gemfile.lock
 vendor
 
+# built from _cv/cv.tex by bin/build_cv.sh
+assets/pdf/cv.pdf

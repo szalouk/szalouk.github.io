@@ -1,0 +1,291 @@
+%-------------------------
+% Resume in LaTeX
+% Author : Sofian Zalouk
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\ifdefined\pdfgentounicode\input{glyphtounicode}\fi
+
+\hypersetup{
+  pdftitle={Zalouk, Sofian Resume},
+  pdfauthor={Sofian Zalouk}
+}
+
+% Red placeholder for anything still to be filled in. Search for \fillin.
+\newcommand{\fillin}[1]{\textcolor{red}{\textbf{[#1]}}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+\titlespacing*{\section}{0pt}{14pt}{6pt}
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\ifdefined\pdfgentounicode\pdfgentounicode=1\fi
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingEdu}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \textit{\small #4} \\
+      \small#5 &  \\
+      \small#6 &  \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubheadingEduGPA}[5]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \textit{\small #4} \\
+      \small#5 &  \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% Publication: {title (with link)}{year}{authors}{venue}
+% Uses tabularx so long titles and author lists wrap on their own.
+\newcommand{\resumePub}[4]{
+  \vspace{-2pt}\item
+    \begin{tabularx}{0.97\textwidth}[t]{@{}>{\raggedright\arraybackslash\hyphenpenalty=10000}X@{\hspace{1em}}r@{}}
+      \textbf{#1} & #2 \\
+      \small #3 & \\
+      \small\textit{#4} & \\
+    \end{tabularx}\vspace{3pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=1pt, topsep=3pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sofian Zalouk} \\ \vspace{3pt}
+    \small
+    \href{mailto:saz43@cornell.edu}{\underline{saz43@cornell.edu}} $|$
+    \href{https://szalouk.github.io/}{\underline{szalouk.github.io}} $|$
+    \href{https://scholar.google.com/citations?hl=en&user=dmQmmUkAAAAJ}{\underline{Google Scholar}}
+\end{center}
+
+
+%-----------RESEARCH INTERESTS-----------
+\section{Research Interests}
+\small{Generative modeling of language, especially diffusion language models: architectures, training objectives, and sampling methods that let models revise their own outputs and learn efficiently from data. Broader interests in probabilistic modeling and uncertainty quantification.}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheadingEduGPA
+      {Cornell University}{2024 -- Present}
+      {Ph.D. in Computer Science}{Ithaca, NY}
+      {Advisors: Christopher De Sa, Kilian Q. Weinberger}
+      \vspace{2pt}
+
+    \resumeSubheadingEdu
+      {Stanford University}{2024}
+      {M.S. in Computer Science, Concentration: Artificial Intelligence}{Stanford, CA}{Advisors: Stefano Ermon, Andrew Ng}{GPA: 4.14/4.00}
+      \vspace{1pt}
+
+    \resumeSubheadingEdu
+      {University of Toronto}{2020}
+      {B.A.Sc. in Electrical Engineering}{Toronto, Canada}{Ranked 1\textsuperscript{st} out of over 100 students in department.}{GPA: 3.96/4.00}
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+  \resumeSubHeadingListStart
+
+    \resumePub
+      {\href{https://arxiv.org/abs/2611.19127}{Empowering Masked Diffusion Models to Self-Correct with Leave-One-Out Transformers}}{2026}
+      {\textbf{Sofian Zalouk}, Vincent Counathe, Paul J\"unger, Daniel Cao, Daniel Zlotnick, Kilian Q. Weinberger, Christopher De Sa}
+      {NeurIPS -- Conference on Neural Information Processing Systems, 2026}
+
+    \resumePub
+      {\href{https://arxiv.org/abs/2505.15962}{Pre-training Limited Memory Language Models with Internal and External Knowledge}}{2026}
+      {Linxi Zhao, \textbf{Sofian Zalouk}, Christian K. Belardi, Justin Lovelace, Jin Peng Zhou, Ryan Thomas Noonan, Dongyoung Go, Kilian Q. Weinberger, Yoav Artzi, Jennifer J. Sun}
+      {ICLR -- International Conference on Learning Representations, 2026 \textup{\textbf{(Top 2\%)}}\newline
+       \textup{\textbf{Best Paper Runner-up}}, CCFM Workshop @ NeurIPS 2025}
+
+    \resumePub
+      {\href{https://arxiv.org/abs/2602.20528}{Stop-Think-AutoRegress: Language Modeling with Latent Diffusion Planning}}{2025}
+      {Justin Lovelace, Christian Belardi, \textbf{Sofian Zalouk}, Adhitya Polavaram, Srivatsa Kundurthy, Kilian Q. Weinberger}
+      {COLM -- Conference on Language Modeling, 2025}
+
+    \resumePub
+      {\href{https://openreview.net/forum?id=kBEwAecyLa}{Multivariate Calibration is Performative: A Perspective on Pitfalls and Progress}}{2025}
+      {\textbf{Sofian Zalouk}, Charles Marx, Syrine Belakaria, Christopher De Sa, Stefano Ermon}
+      {ICML Workshop on Foundation Models for Structured Data, 2025}
+
+    \resumePub
+      {\href{https://arxiv.org/abs/2310.20211}{Calibration by Distribution Matching: Trainable Kernel Calibration Metrics}}{2023}
+      {Charles Marx$^*$, \textbf{Sofian Zalouk$^*$}, Stefano Ermon \quad ($^*$Equal contribution)}
+      {NeurIPS -- Conference on Neural Information Processing Systems, 2023}
+
+    \resumePub
+      {\href{https://ieeexplore.ieee.org/document/10337735}{A System for Automated Vehicle Damage Localization and Severity Estimation Using Deep Learning}}{2023}
+      {Yuntao Ma, Hiva Ghanbari, Tianyuan Huang, Jeremy Irvin, Oliver Brady, \textbf{Sofian Zalouk}, Hao Sheng, Andrew Ng, Ram Rajagopal, Mayur Narsude}
+      {IEEE Transactions on Intelligent Transportation Systems, 2023}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Graduate Research Assistant}{2024 -- Present}
+      {Cornell University, with Kilian Q. Weinberger and Christopher De Sa}{Ithaca, NY}
+      \resumeItemListStart
+        \resumeItem{\textbf{Self-correcting diffusion language models.} Masked diffusion models cannot revise a token once it is generated, and learn from only a fraction of positions. Developing architectures and training objectives that supervise every token and let the model revise its own outputs (LOOT, first author)}
+        \resumeItem{\textbf{Hierarchical discrete diffusion.} Organized the vocabulary into a semantic tree rooted at the mask token, so generation refines meaning from coarse to specific and self-correction means moving to a different branch; derived a simplified objective for efficient training}
+        \resumeItem{\textbf{Planning in continuous latent space.} Diffusion over sentence embeddings as a planning step for autoregressive generation, with plans steered by lightweight classifiers (STAR-LDM)}
+        \resumeItem{\textbf{Separating knowledge from language ability.} Pre-training language models that store facts in an external database, making knowledge editable and verifiable; built the training pipeline and unlearning evaluations (LMLM)}
+        \resumeItem{\textbf{Calibrated multivariate forecasts.} Showed that common definitions of multivariate calibration are performative: recalibrating a forecaster changes the test used to judge it (first author, ICML workshop)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Research Assistant}{Sep 2020 -- 2024}
+      {Stanford Artificial Intelligence Laboratory}{Stanford, CA}
+      \resumeItemListStart
+        \resumeItem{Uncertainty quantification and calibration with Stefano Ermon (NeurIPS 2023)}
+        \resumeItem{Machine learning for healthcare with Andrew Ng and Sharon Zhou}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Assistant}{Summer 2022}
+      {Ford-Stanford University Collaboration}{Stanford, CA}
+      \resumeItemListStart
+        \resumeItem{Active learning and image segmentation with Andrew Ng and Ram Rajagopal (IEEE T-ITS 2023)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Researcher}{Sep 2019 -- May 2020}
+      {University of Toronto}{Toronto, Canada}
+      \resumeItemListStart
+        \resumeItem{Monocular depth estimation with Andreas Moshovos}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------INDUSTRY EXPERIENCE-----------
+\section{Industry Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Engineer (Intern)}{Sep 2018 -- Sep 2019}{Intel}{Toronto, Canada}
+      \resumeItemListStart
+        \resumeItem{Worked on the LLVM compiler to analyze and accelerate deep learning workloads on FPGAs}
+        \resumeItem{Improved Intel's OpenCL memory management, reducing runtime and memory overhead by an order of complexity}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ASIC Design Engineer (Intern)}{Summer 2018}{NVIDIA}{Santa Clara, CA}
+      \resumeItemListStart
+        \resumeItem{Design and verification of processors for deep learning}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------TEACHING EXPERIENCE-----------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+  \vspace{-2pt}\item
+     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small Cornell CS 4787/5777 (Principles of Large-Scale Machine Learning), Teaching Assistant; delivered lectures & \small Fall 2026 \\
+      \small Stanford CS 228 (Probabilistic Graphical Models), Teaching Assistant  & \small Winter 2024 \\
+      \small Stanford CS 229 (Machine Learning), Teaching Assistant  & \small Spring 2021 \\
+      \small Stanford CS 236G (Generative Adversarial Networks), Teaching Assistant & \small Winter 2021 \\
+    \end{tabular*}\vspace{0pt}
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------
+\section{Awards and Scholarships}
+  \resumeSubHeadingListStart
+  \vspace{-2pt}\item
+     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \small\textbf{Best Paper Runner-up}, CCFM Workshop @ NeurIPS 2025, for Limited Memory Language Models & \small 2025 \\
+      \small\textbf{Best Project Award}, Stanford CS 224R (Deep Reinforcement Learning), Instructor: Chelsea Finn & \small Spring 2023 \\
+      \small\textbf{W.S. Wilson Medal}, University of Toronto: highest academic standing in the graduating year & \small 2020 \\
+      \small\textbf{Outstanding Student Award}, University of Toronto: top 3 students in Electrical Engineering & \small 2015 -- 2020 \\
+      \small\textbf{Baptie Scholarship}, University of Toronto: high academic standing (top 1\%) & \small 2016 \\
+    \end{tabular*}\vspace{0pt}
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, CUDA, JavaScript, HTML/CSS, R, Bash, MATLAB} \\
+     \textbf{ML}{: PyTorch, TensorFlow, Keras, scikit-learn, pandas, NumPy, Matplotlib} \\
+     \textbf{Tools}{: \LaTeX, Git, Jupyter, GDB, Valgrind}
+    }}
+ \end{itemize}
+
+\end{document}

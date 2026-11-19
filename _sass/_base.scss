@@ -649,7 +649,7 @@ footer.sticky-bottom {
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: 0.5rem;
     text-align: right;
   }
 
@@ -664,7 +664,7 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 260px;
       }
 
       .abbr {
@@ -694,6 +694,26 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+
+        // phrase from the entry's `nobreak` field stays on one line when there is room
+        @media (min-width: 768px) {
+          .keep {
+            white-space: nowrap;
+          }
+        }
+      }
+
+      .venue,
+      .honor {
+        font-weight: 500;
+      }
+
+      .venue {
+        color: var(--global-venue-color);
+      }
+
+      .honor {
+        color: var(--global-honor-color);
       }
 
       .author {

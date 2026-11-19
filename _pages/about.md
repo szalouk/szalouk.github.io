@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 'Contact: szalouk [at] cs [dot] cornell [dot] edu'
+subtitle: 'Contact: saz43 [at] cornell [dot] edu'
 
 profile:
   align: right
@@ -15,6 +15,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student in Computer Science at Cornell University, working with Prof. [Kilian Q. Weinberger](https://www.cs.cornell.edu/~kilian/) and Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/). Previously, I was an MS student in Computer Science at Stanford University, with a concentration on artifical intelligence. I was advised by Prof. [Stefano Ermon](https://cs.stanford.edu/~ermon/), and have worked closely with Prof. [Andrew Ng](https://www.andrewng.org/). I completed my B.A.Sc. in Elecrical Engineering with highest distinction at the University of Toronto, where I worked with Prof. [Andreas Moshovos](https://www.eecg.utoronto.ca/~moshovos/000/doku.php).
+I’m a third-year PhD student in Computer Science at Cornell University, focusing on machine learning, specifically diffusion language models. I am fortunate to be advised by Prof. [Chris De Sa](https://www.cs.cornell.edu/~cdesa/) and Prof. [Kilian Q. Weinberger](https://www.cs.cornell.edu/~kilian/). Previously, I was an MS student in Computer Science at Stanford University, where I worked closely with Prof. [Stefano Ermon](https://cs.stanford.edu/~ermon/) and Prof. [Andrew Ng](https://www.andrewng.org/). I completed my B.A.Sc. in Electrical Engineering at the University of Toronto, where I worked with Prof. [Andreas Moshovos](https://www.eecg.utoronto.ca/~moshovos/000/doku.php).
 
-I am interested in working on topics such as uncertainty quantification, generative modeling, and computational fairness. These areas, I believe, are key to ensuring that machine learning technologies are employed responsibly, particularly in sectors where they may have a profound impact on human life and wellbeing. Please feel free to reach out if you’re interested in collobrating in any of these areas!
+My research focuses on generative modeling for language, particularly the design of efficient and scalable diffusion language models. In [LOOT](https://arxiv.org/abs/2611.19127), we introduce the Leave-One-Out transformer that enables masked diffusion models to: 1) learn from every token during training, 2) self-correct during generation. Beyond diffusion, I am interested in separating factual knowledge from reasoning in language models. Along this line, [LMLM](https://arxiv.org/abs/2505.15962) externalizes factual knowledge into an explicit, editable knowledge base rather than memorizing it in model weights. Please feel free to reach out if you’re interested in collaborating!

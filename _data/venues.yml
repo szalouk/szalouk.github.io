@@ -9,5 +9,17 @@
   url: https://papers.nips.cc/
   color: "#00369f"
 
-"IEEE":
+"IEEE T-ITS":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#00369f"
+
+"COLM":
+  url: https://colmweb.org/
+  color: "#00369f"
+
+"FMSD @ ICML":
+  url: https://icml.cc/virtual/2025/workshop/39976
+  color: "#00369f"

@@ -3,7 +3,9 @@
 <figure>
 
   <picture>
-    {% if site.imagemagick.enabled %}
+    {%- assign img_ext = include.path | split: "." | last | downcase -%}
+    {%- assign responsive_exts = "jpg,jpeg,png,tiff" | split: "," -%}
+    {% if site.imagemagick.enabled and responsive_exts contains img_ext %}
     {% for i in site.imagemagick.widths -%}
       <source
         class="responsive-img-srcset"
