@@ -48,6 +48,12 @@ table.table a {
   }
 }
 
+// Table text follows the theme from the first paint, without waiting for the script
+// that adds .table-dark.
+.table {
+  color: var(--global-text-color);
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered{

@@ -88,14 +88,23 @@ let transTheme = () => {
 };
 
 let initTheme = (theme) => {
+  // Dark is the default; a visitor's own choice (the toggle) is remembered and wins.
   if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
+    theme = "dark";
   }
 
   setTheme(theme);
 };
 
 initTheme(localStorage.getItem("theme"));
+
+// This script runs in <head>, before any table exists, so setTheme above cannot
+// restyle tables on first load. Do it again once the page content is there.
+document.addEventListener("DOMContentLoaded", () => {
+  if (document.documentElement.getAttribute("data-theme") == "dark") {
+    let tables = document.getElementsByTagName("table");
+    for (let i = 0; i < tables.length; i++) {
+      tables[i].classList.add("table-dark");
+    }
+  }
+});
