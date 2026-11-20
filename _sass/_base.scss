@@ -709,16 +709,14 @@ footer.sticky-bottom {
         }
       }
 
-      .venue,
+      // venue matches the title's colour (both inherit the body text colour)
+      .venue {
+        font-style: italic;
+        font-weight: normal;
+      }
+
       .honor {
         font-weight: 500;
-      }
-
-      .venue {
-        color: var(--global-venue-color);
-      }
-
-      .honor {
         color: var(--global-honor-color);
       }
 
